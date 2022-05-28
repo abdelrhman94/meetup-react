@@ -34,9 +34,9 @@ export const FavoritesContextProvider = ({ children }) => {
   };
 
   return (
-    <FavoritesContext.provider value={context}>
+    <FavoritesContext.Provider value={context}>
       {children}
-    </FavoritesContext.provider>
+    </FavoritesContext.Provider>
   );
 };
 
